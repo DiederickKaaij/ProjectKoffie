@@ -1,4 +1,4 @@
-Feature: Init
+Feature: Init of Cup
 
    
     Scenario Outline: Initializing cup
