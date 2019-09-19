@@ -16,7 +16,7 @@ class KoffieAutomaat:
     def vul(self, aantal):
 
         for i in range(0,aantal):
-            randomSmaak = randint(0,6)
+            randomSmaak = i%7
             nieuwKopje = Cup(randomSmaak)
             self.cups.append(nieuwKopje)
             i += 1
