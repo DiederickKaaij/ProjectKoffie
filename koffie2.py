@@ -3,7 +3,7 @@ from random import randint
 class Cup:
     
     def __init__(self, smaak):
-        smaken = ["Java", "Espresso", "Cappucino", "Zwart", "Verkeerd", "Moccha", "Wiener Melange"]
+        smaken = ["Java", "Espresso", "Cappucino", "Zwart", "Verkeerd", "Moccha", "WienerMelange"]
         self.smaak = smaken[smaak]
 
     
